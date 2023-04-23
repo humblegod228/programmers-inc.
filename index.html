@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <div class="form-box">
+        <h1>Programmers Inc.</h1>
+        <div class="userinput-box">
+            <i class="fa fa-regular fa-user fa-beat-fade"></i>
+            <input type="text" placeholder="Username" id="username">
+        </div>
+        <div class="userinput-box">
+            <i class="fa fa-solid fa-key fa-beat-fade"></i>
+            <input type="password" placeholder="Password" id="password">
+            <span class="eye" onclick="eyeClick()">
+                <i id="hide1" class="fa-regular fa-eye"></i>
+                <i id="hide2" class="fa-regular fa-eye-slash"></i>
+            </span>
+        </div>
+        <button type="submit" class="login-button" onclick="validateInput()">ENTER</button>
+    </div>
+</body>
+</html>
